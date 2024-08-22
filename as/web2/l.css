@@ -1,0 +1,29 @@
+body{
+ background-image: url('jk.jpg');
+ background-position: center;
+ background-size: cover;
+ color:white;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+}
+logo{
+   font-size: 25px;
+   font-weight: bold;
+}
+
+nav a{
+  color :white;
+  padding:5px;
+  margin:10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: a 0.3s;
+}
+nav a:hover{
+  cursor:pointer;
+  border-bottom:2px solid blue;
+  
+}
