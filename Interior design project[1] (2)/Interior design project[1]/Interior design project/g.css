@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.head{
+    background-image: url(k0.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: bottom;
+}
+.nav h1{
+    font-size: 7vmin;
+}
+
+.nav{
+    
+    color:whitesmoke ;
+    display : flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.nav-links ul{
+    list-style: none;
+  
+}
+.nav-links ul li{
+    display:inline-block;
+    position:relative;
+}
+.nav-links ul li a{
+    display:block;
+    text-decoration:none;
+    padding:21px 26px;
+    color:whitesmoke;
+    text-align: center;
+    font-size:21px;
+}
+.nav-links ul li ul.dropdown li{
+    display:block;
+}
+.nav-links ul li ul.dropdown{
+    width:100%;
+    display:none;
+    z-index:999;
+    position: absolute;
+}
+
+.nav-links ul li:hover ul.dropdown{
+    display: block;
+}
+.text{
+    
+    color: whitesmoke;
+    text-align: center ;
+}
+.text h2{
+    margin-top: 50px ;
+    color: whitesmoke;
+    font-size: 4vmin;
+
+}
+.text p{
+    font-size: 7vmin;
+}
+.nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.nav-links a:hover {
+    border-bottom: 5px solid #485F6D;
+}
+footer{
+    background-color: #485F6D;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.g1 form{
+    border:1px solid plum;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.g1 form input{
+    padding:10px;
+    width: 60%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.g1 form input[type="submit"]{
+    background-color: gold;
+    width:40%;
+}
+
+.g1 form input[type="email"]{
+    border:1px solid black;
+}
+  
+
+
+
+
+footer a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+footer h3{
+    font-size: 26px;
+
+}
+.box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+}
+.box .g1 {
+
+    display: flex;
+    width: 32.5%;
+    flex-direction: column;
+}
+
+.box .g1 img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
