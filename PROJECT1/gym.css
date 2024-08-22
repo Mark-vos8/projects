@@ -1,0 +1,116 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+html{
+  height: 100%;
+}
+body{
+  min-height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  background-color: #00072D;
+  height:80px;
+  font-size:20px;
+  font-weight:600;
+  color:white;
+ 
+}
+.nav,.logo{
+  margin-top: 10px;
+}
+.logo{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav a{
+  margin-left:20px;
+  color:white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.btn button{
+  padding:10px;
+  border-radius:50px;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  color:#00072D;
+  font-weight: 500;
+}
+
+.btn a{
+  color:black;
+  text-decoration: none;
+
+}
+
+main{
+  overflow: hidden;
+  display: flex;
+  flex-wrap:wrap;
+ margin-left:100px;
+}
+
+.sec2 h1{
+  text-align: center;
+text-decoration: underline;
+margin: 20px 10px;
+}
+.sec2 hr{
+  
+  border: 2px solid black;
+}
+.profile{
+ 
+ flex-wrap: wrap;
+}
+#profile_card{
+   height:400px;
+   width:300px;
+   margin:10px;
+   border-radius:10px;
+   border:2px solid #512ad8;
+   z-index: 1;
+}
+
+#profile_card .profile_img img{
+width:200px;
+margin-left: 40px;
+height:200px;
+margin-top:5px;
+border-radius:50%;
+border:2px solid #00072D;
+}
+.infoemail,.infostaff,.infophone,.infolocation{
+  margin-left: 30px;
+  font-size:20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.infoname{
+  margin-left: 30px;
+  font-size:20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.part2{
+  background-color: #fff;
+  height:150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color:black;
+
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: black;
+  padding: 20px;
+ margin-top:auto;
+ width:100%;
+}
